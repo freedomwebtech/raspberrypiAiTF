@@ -14,6 +14,6 @@ def CountFreq(li):
        
        
        
-       Friends Also We Need To Import our gtts module
+       Friends Also We Need To Import our gtts module in utils.py file which i forget to mention in video
        
        from gtts import gTTS       -------(import module like this way)
