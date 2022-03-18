@@ -1,0 +1,12 @@
+def speak(a):
+    tts = gTTS(text=a, lang='en')
+    tts.save("audio.mp3")
+    os.system("mpg321 audio.mp3")
+def CountFreq(li):
+    freq = {}
+    for items in li:
+        freq[items] = li.count(items)
+#    print(freq)
+    a=str(freq)
+    if cv2.waitKey(1) & 0xFF == ord('r'):
+       speak(a)
